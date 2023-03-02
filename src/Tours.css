@@ -1,0 +1,33 @@
+.tours {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  text-align: center;
+}
+
+.tours > h1 {
+  margin: 50px auto;
+  font-size: 40px;
+  color: #00264d;
+  border-bottom: 4px solid #00a3cc;
+}
+
+.tours > div {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+/* ******************* Media Screen ********************* */
+
+@media Only screen and (max-width: 350px) {
+  .tours {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}

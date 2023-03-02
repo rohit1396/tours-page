@@ -1,0 +1,81 @@
+.tour {
+  position: relative;
+  max-width: 365px;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3px;
+  margin: 0 15px;
+}
+
+.tour_image {
+  width: 365px;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+
+.tour_details {
+  width: 100%;
+  height: max-content;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  text-align: start;
+  background-color: white;
+  margin-bottom: 75px;
+  /* box-shadow: 0 2px 2p; */
+}
+
+.tour_name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #00264d;
+}
+
+.tour_info {
+  font-size: 18px;
+  color: gray;
+  font-weight: 300;
+}
+
+.tour_readmore {
+  color: red;
+  cursor: pointer;
+}
+
+.tour_price {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 75px;
+  padding: 10px 5px;
+  background-color: #e6faff;
+  color: #00a3cc;
+  border-radius: 0 5px 0 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+.tour_details > button {
+  width: 65%;
+  padding: 5px;
+  background-color: white;
+  color: brown;
+  border: 1px solid brown;
+  border-radius: 5px;
+  font-size: 15px;
+  margin: 15px auto;
+}
+
+/* ******************* Media Screen ****************** */
+
+@media Only screen and (max-width: 772px) {
+  .tour {
+    max-width: 350px;
+    margin: auto;
+  }
+}
